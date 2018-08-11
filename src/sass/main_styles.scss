@@ -1,0 +1,60 @@
+.butt{ padding: 8px 20px 6px; display: block; line-height: 1.5; font-size: 13px; border-radius: 2px; text-decoration: none; margin-right: 25px; font-family: "Open Sans"; font-weight: 400;  letter-spacing: 1.7px;  line-height: 1.5; transition: all 0.3s;
+    &.singup{ background-color: #3cd458; color: #fff; font-weight: 600; 
+        &:hover{ box-shadow: 0 1px 10px rgba(60,212,88,0.4);  }
+    }
+    &.login{
+        &:hover{ text-decoration: underline; }
+    }
+}
+
+/* first */
+    
+    .first-wrap{ padding: 100px 0; background-image: linear-gradient(135deg, #f9f7ff 0%, #fff 50%, #f6f3ff 100%);
+        .siders{ display: flex; align-items: center; justify-content: space-between; }
+        .texter{ max-width: 540px;
+            h1{font-size: 42px;  font-family: 'Dosis'; font-weight: 600; line-height: 1.2; margin-bottom: 10px;}
+            p{ line-height: 2; color: #323d47; font-size: 17px; font-weight:300; letter-spacing: 0.5px; margin: 25px 0 80px; }
+        }
+
+        .buttoners{
+            .butt{ display: inline-block; border-radius: 18px; font-size: 11px; padding: 8px 26px 6px; letter-spacing: 1.7px; text-transform: uppercase; min-width: 200px; margin-right: 8px; text-align: center; line-height: 2; border: 1px solid transparent;
+                &.singup{background-color: #50a1ff; color: #fff; border-color: #50a1ff;
+                    &:hover{ box-shadow: 0 1px 10px rgba( #50a1ff , 0.4); }
+                }
+                &.learnmore{ background-color: transparent; color: #757575;  border-color: #e9ecf0;
+                    &:hover{ background-color: #e9ecf0; box-shadow: 0 1px 10px rgba(233,236,240,0.4); }
+                }
+            }
+        }
+    }
+
+/* first */
+
+/* header */
+
+    header{ position: absolute; top: 0; left: 0; right: 0; padding: 15px 0;
+        .mbox{ display: flex; align-items: center; justify-content: space-between; }
+        .logo-part{ margin-right: 40px;
+            a{ display: inline-block;text-decoration: none; }
+        }
+        .left-side{ display: flex; align-items: center; justify-content: flex-start; }
+        nav{
+            ul{ list-style: none; padding: 0; margin: 0; display: flex; align-items: center;
+                li{margin-right: 30px;}
+            }
+            a{ font-weight: 600; text-decoration: none; font-family: "Open Sans"; letter-spacing: 1px; font-size: 14px; word-spacing: 2px;     color: rgba(117,117,117,0.8); transition: all 0.3s;
+                &:hover{  color: #555; }  
+            }
+        }
+
+        .login-part{ display: flex; align-items: center; justify-content: flex-end; }
+        .search{ width: 32px; height: 32px; padding: 8px; border-radius: 50%; overflow: hidden; background-color: transparent; transition: all 0.3s; cursor: pointer;
+            svg{ fill: #000; transition: all 0.3s; }
+            &:hover{ background-color: rgb(80, 161, 255); 
+                svg{ fill: #fff; }
+            }
+        }
+    }
+
+/* header */
+
